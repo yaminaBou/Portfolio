@@ -1,0 +1,100 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #1a1a1a;
+}
+
+/* Style du menu de navigation */
+nav.Menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav.Menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+nav.Menu a:hover {
+    background-color: #ff6b6b;
+    color: #1a1a1a;
+}
+
+/* Style des en-têtes */
+h1, h2, h3 {
+    color: #f4f4f4;
+    margin-bottom: 15px;
+}
+
+/* Style de l'en-tête principal */
+header.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header.header .cv a {
+    display: inline-block;
+    background-color: #fff;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+header.header .cv a:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+/* Style du pied de page */
+footer.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: opacity 0.3s ease;
+}
+.footer-links a:hover {
+    opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav.Menu {
+        text-align: left;
+    }
+    nav.Menu a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+    header.header .cv a {
+        padding: 8px 16px;
+    }
+}

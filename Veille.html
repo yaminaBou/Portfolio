@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille - Portfolio de Yamina</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="Veille.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="Menu">
+        <a href="index.html">Accueil</a>
+        <a href="Entreprise.html">Entreprise</a>
+        <a href="Réalisations.html">Réalisations</a>
+        <a href="Veille.html">Veille</a>
+        <a href="Bilan.html">Bilan</a>
+    </nav>
+    <header class="header">
+        <h1>Veille Technologique</h1>
+    </header>
+    <section class="introduction">
+        <h2>Pourquoi les attaques Ransomware ?</h2>
+        <p>Les attaques ransomware sont l'une des menaces les plus courantes et destructrices dans le paysage de la cybersécurité actuel. J'ai choisi de me concentrer sur ces types d'attaques pour plusieurs raisons :</p>
+        <ul>
+            <li><strong>Impact Économique :</strong> Les ransomwares peuvent causer des pertes financières considérables aux organisations en bloquant l'accès à des données cruciales.</li>
+            <li><strong>Facilité d'Exécution :</strong> Ces attaques peuvent cibler un grand nombre d'utilisateurs, rendant leur détection difficile.</li>
+            <li><strong>Évolution des Techniques :</strong> Les méthodes utilisées pour mener ces attaques évoluent constamment, ce qui nécessite une veille constante pour rester protégé.</li>
+            <li><strong>Repercussions Sociales :</strong> Les données compromises peuvent avoir des répercussions sur la vie privée des individus et la réputation des entreprises.</li>
+        </ul>
+        <p><strong>Outils de Veille :</strong> Je me tiens informée des menaces et des tendances en utilisant des outils de veille tels que <em>Google Alerts</em>, <em>Feedly</em>, et des plateformes de cybersécurité comme <em>SecureList</em> et <em>CyberScoop</em>.</p>
+    </section>
+    <section class="articles">
+        <div class="filter">
+            <label for="filter">Filtrer par :</label>
+            <select id="filter">
+                <option value="recent">Articles Récents</option>
+                <option value="top-rated">Les Mieux Notés</option>
+                <option value="low-rated">Les Moins Notés</option>
+            </select>
+        </div>
+        <div class="article-cards">
+            <!-- Article 1 -->
+            <div class="article-card" data-category="recent">
+                <div class="article">
+                    <img src="article1.jpg" alt="Titre de l'Article 1">
+                    <h4><a href="https://example.com/article1" target="_blank">Titre de l'Article 1</a></h4>
+                    <p>Résumé de l'article 1...</p>
+                    <span class="rating">Note: 8/10</span>
+                    <span class="date">Date: 01/01/2023</span>
+                </div>
+            </div>
+<!-- Article 2 -->
+<div class="article-card" data-category="recent">
+    <div class="article">
+        <img src="article2.jpg" alt="Titre de l'Article 2">
+        <h4><a href="https://example.com/article2" target="_blank">Titre de l'Article 2</a></h4>
+        <p>Résumé de l'article 2...</p>
+        <span class="rating">Note: 7/10</span>
+        <span class="date">Date: 02/01/2023</span>
+    </div>
+</div>
+<!-- Article 3 -->
+<div class="article-card" data-category="recent">
+    <div class="article">
+        <img src="article3.jpg" alt="Titre de l'Article 3">
+        <h4><a href="https://example.com/article3" target="_blank">Titre de l'Article 3</a></h4>
+        <p>Résumé de l'article 3...</p>
+        <span class="rating">Note: 9/10</span>
+        <span class="date">Date: 03/01/2023</span>
+    </div>
+</div>
+<!-- Article 4 -->
+<div class="article-card" data-category="top-rated">
+    <div class="article">
+        <img src="article4.jpg" alt="Titre de l'Article 4">
+        <h4><a href="https://example.com/article4" target="_blank">Titre de l'Article 4</a></h4>
+        <p>Résumé de l'article 4...</p>
+        <span class="rating">Note: 9/10</span>
+        <span class="date">Date: 01/01/2023</span>
+    </div>
+</div>
+<!-- Article 5 -->
+<div class="article-card" data-category="top-rated">
+    <div class="article">
+        <img src="article5.jpg" alt="Titre de l'Article 5">
+        <h4><a href="https://example.com/article5" target="_blank">Titre de l'Article 5</a></h4>
+        <p>Résumé de l'article 5...</p>
+        <span class="rating">Note: 8/10</span>
+        <span class="date">Date: 02/01/2023</span>
+    </div>
+</div>
+<!-- Article 6 -->
+<div class="article-card" data-category="top-rated">
+    <div class="article">
+        <img src="article6.jpg" alt="Titre de l'Article 6">
+        <h4><a href="https://example.com/article6" target="_blank">Titre de l'Article 6</a></h4>
+        <p>Résumé de l'article 6...</p>
+        <span class="rating">Note: 7/10</span>
+        <span class="date">Date: 03/01/2023</span>
+    </div>
+</div>
+<!-- Article 7 -->
+<div class="article-card" data-category="low-rated">
+    <div class="article">
+        <img src="article7.jpg" alt="Titre de l'Article 7">
+        <h4><a href="https://example.com/article7" target="_blank">Titre de l'Article 7</a></h4>
+        <p>Résumé de l'article 7...</p>
+        <span class="rating">Note: 5/10</span>
+        <span class="date">Date: 01/01/2023</span>
+    </div>
+</div>
+<!-- Article 8 -->
+<div class="article-card" data-category="low-rated">
+    <div class="article">
+        <img src="article8.jpg" alt="Titre de l'Article 8">
+        <h4><a href="https://example.com/article8" target="_blank">Titre de l'Article 8</a></h4>
+        <p>Résumé de l'article 8...</p>
+        <span class="rating">Note: 4/10</span>
+        <span class="date">Date: 02/01/2023</span>
+    </div>
+</div>
+<!-- Article 9 -->
+<div class="article-card" data-category="low-rated">
+    <div class="article">
+        <img src="article9.jpg" alt="Titre de l'Article 9">
+        <h4><a href="https://example.com/article9" target="_blank">Titre de l'Article 9</a></h4>
+        <p>Résumé de l'article 9...</p>
+        <span class="rating">Note: 3/10</span>
+        <span class="date">Date: 03/01/2023</span>
+    </div>
+</div>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer-links">
+        <a href="https://www.linkedin.com/in/yamina-boutchich-505557270/" id="linkedin-link" target="_blank" rel="noopener noreferrer">
+            <img src="linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://tryhackme.com/p/melindal" id="tryhackme-link" target="_blank" rel="noopener noreferrer">
+            <img src="tryhackme.png" alt="TryHackMe">
+        </a>
+        <a href="https://www.root-me.org/melinda_l?lang=fr#297ef9a9ad765517e09ace4a" id="rootme-link" target="_blank" rel="noopener noreferrer">
+            <img src="rootme.png" alt="RootMe">
+        </a>
+    </div>
+    <p>&copy; 2023 Yamina BOUTCHICH. Tous droits réservés.</p>
+</footer>
+<script src="Veille.js"></script>
+</body>
+</html>
