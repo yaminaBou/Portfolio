@@ -1,4 +1,3 @@
-/* Réinitialisation des styles par défaut */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ body {
   line-height: 1.6;
   background-color: #1a1a1a;
   color: #f4f4f4;
-  text-align: center; /* Centering all text by default */
+  text-align: center;
 }
 
 /* Navigation */
@@ -61,11 +60,11 @@ header.header h1 {
 }
 .introduction ul {
   padding-left: 20px;
-  list-style-type: none; /* Remove default list style */
+  list-style-type: none; 
 }
 .introduction li::before {
   content: "• ";
-  color: #ff7e5f; /* Custom bullet color */
+  color: #ff7e5f; 
 }
 .introduction li {
   margin-bottom: 10px;
